@@ -1,6 +1,11 @@
 Na tarefa 5, foram feitas as seguintes mudanças:
 
-A Máquina, agora, cria seus componentes no construtor, de forma que as classes das partes são restritas ao pacote, impedindo compartilhamento ou instanciação externa. Além disso, a Máquina também mantém sua existência e histórico de desgaste ao ser transferida entre diferentes instâncias da Linha de Produção.
+A Máquina, agora, cria seus componentes no construtor, de forma que as classes das 
+partes são restritas ao pacote, impedindo compartilhamento ou instanciação externa. 
+Além disso, a Máquina também mantém sua existência e histórico de desgaste ao ser 
+transferida entre diferentes instâncias da Linha de Produção.
 
-Em relação ao comportamento e acoplamento, o desgaste impacta agora a velocidade, a taxa e a operação. O sistema externo interage apenas com a Máquina e a auditoria ocorre em casacata, via interface auditável.
+Em relação ao comportamento e acoplamento, o desgaste impacta agora a velocidade, 
+a taxa e a operação. O sistema externo interage apenas com a Máquina e a auditoria 
+ocorre em casacata, via interface auditável.
 
